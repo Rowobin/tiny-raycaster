@@ -1,0 +1,17 @@
+.{
+    .name = .foo,
+    .version = "0.0.0",
+    .fingerprint = 0x8c7365219a8268f1, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.2",
+    .dependencies = .{
+        .sokol = .{
+            .url = "git+https://github.com/floooh/sokol-zig.git#76d4afd25adfae9666d76a0d324cdb70ad178a88",
+            .hash = "sokol-0.1.0-pb1HK3TYLgCx8lOxdLVWIVDcAzacxO8YDfyw2Er-_2nN",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
